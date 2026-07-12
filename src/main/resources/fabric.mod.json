@@ -3,24 +3,20 @@
   "id": "${id}",
   "version": "${version}",
   "name": "${name}",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Minecraft Java mod that adds fun new content based on weird sustances that will make your gameplay more fun.",
   "authors": [
-    "Me!"
+    "Juan Alzate"
   ],
-  "contact": {
-    "homepage": "https://stonecutter.kikugie.dev/",
-    "sources": "https://codeberg.org/stonecutter/template-fabric"
-  },
-  "license": "CC0-1.0",
-  "icon": "assets/template/icon.png",
+  "license": "MIT",
+  "icon": "assets/weirdsustancesmod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.TemplateMod"
+      "com.juanalzate.WeirdSustancesMod"
     ]
   },
   "mixins": [
-    "template.mixins.json"
+    "weirdsustancesmod.mixins.json"
   ],
   "accessWidener": "template.ct",
   "depends": {

@@ -1,8 +1,8 @@
 # See https://stonecutter.kikugie.dev/wiki/config/properties#centralized-properties
-mod.id = "template"
-mod.name = "Template"
-mod.group = "com.example"
-mod.version = "0.1.0"
+mod.id = "weirdsustancesmod"
+mod.name = "Weird Sustances Mod"
+mod.group = "com.juanalzate.weirdsustancesmod"
+mod.version = "1.0.0"
 
 deps.fabric_loader = "0.19.3"
 loomx.loom_version = "1.17-SNAPSHOT"
@@ -14,15 +14,3 @@ mod.mc_compat = ">=1.21 <=1.21.1"
 mod.mc_releases = ["1.21", "1.21.1"]
 
 deps.fabric_api = "0.116.10+1.21.1"
-
-["1.21.11"]
-mod.mc_compat = "1.21.11"
-mod.mc_releases = ["1.21.11"]
-
-deps.fabric_api = "0.141.3+1.21.11"
-
-["26.2.x"]
-mod.mc_compat = "~26.2"
-mod.mc_releases = ["26.2"]
-
-deps.fabric_api = "0.152.2+26.2"

@@ -6,4 +6,10 @@
 
 # These are Windows script files and should use crlf
 *.bat           text eol=crlf
+*.kts         text eol=lf
+*.java        text eol=lf
+*.json        text eol=lf
+*.toml        text eol=lf
+*.properties  text eol=lf
+*.md          text eol=lf
 
