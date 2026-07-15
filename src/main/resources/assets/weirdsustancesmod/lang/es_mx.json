@@ -1,0 +1,73 @@
+{
+  "item.weirdsustancesmod.cannabis_seed": "Semilla de cannabis",
+
+  "item.weirdsustancesmod.cannabis_nugget_common": "Cogollo de cannabis",
+  "item.weirdsustancesmod.cannabis_nugget_rare": "Cogollo de cannabis",
+  "item.weirdsustancesmod.cannabis_nugget_special": "Cogollo de cannabis",
+  "item.weirdsustancesmod.cannabis_nugget_legendary": "Cogollo de cannabis",
+
+  "item.weirdsustancesmod.blunt_wrap_natural": "Cuero natural",
+  "item.weirdsustancesmod.blunt_wrap_apple": "Cuero de manzana",
+  "item.weirdsustancesmod.blunt_wrap_watermelon": "Cuero de sandía",
+  "item.weirdsustancesmod.blunt_wrap_chocolate": "Cuero de chocolate",
+  "item.weirdsustancesmod.blunt_wrap_honey": "Cuero de miel",
+  "item.weirdsustancesmod.blunt_wrap_golden": "Cuero dorado",
+
+  "item.weirdsustancesmod.grinder": "Rascador",
+  "item.weirdsustancesmod.blunt": "Porro",
+
+  "weirdsustancesmod.nugget_quality.common": "Común",
+  "weirdsustancesmod.nugget_quality.rare": "Raro",
+  "weirdsustancesmod.nugget_quality.special": "Especial",
+  "weirdsustancesmod.nugget_quality.legendary": "Legendario",
+
+  "weirdsustancesmod.blunt_wrap_type.natural": "Natural",
+  "weirdsustancesmod.blunt_wrap_type.apple": "Manzana",
+  "weirdsustancesmod.blunt_wrap_type.watermelon": "Sandía",
+  "weirdsustancesmod.blunt_wrap_type.chocolate": "Chocolate",
+  "weirdsustancesmod.blunt_wrap_type.honey": "Miel",
+  "weirdsustancesmod.blunt_wrap_type.golden": "Dorado",
+
+  "weirdsustancesmod.tooltip.processed": "Procesado ",
+  "weirdsustancesmod.tooltip.unprocessed": "Sin procesar ",
+  "weirdsustancesmod.tooltip.quality": "Calidad ",
+  "weirdsustancesmod.tooltip.effect": "Efecto ",
+  "weirdsustancesmod.tooltip.nugget": "Cogollo ",
+  "weirdsustancesmod.tooltip.duration": "Duración: %s:%s Potencia: %s",
+
+  "block.weirdsustancesmod.cannabis_soil": "Tierra para cannabis",
+  "block.weirdsustancesmod.grow_light": "Luz de cultivo",
+  "item.weirdsustancesmod.cannabis_soil": "Tierra para cannabis",
+  "item.weirdsustancesmod.grow_light": "Luz de cultivo",
+
+  "weirdsustancesmod.grinder.already_processed": "Este cogollo ya fue procesado.",
+
+  "block.weirdsustancesmod.cannabis_crafting_table": "Mesa cannábica",
+  "item.weirdsustancesmod.cannabis_crafting_table": "Mesa cannábica",
+
+  "effect.weirdsustancesmod.high": "High",
+
+  "entity.minecraft.villager.weirdsustancesmod.dealer": "Distribuidor",
+  "entity.minecraft.villager.dealer": "Distribuidor",
+
+  "itemGroup.weirdsustancesmod.weirdsustancesmod_group": "Weird Sustances Mod",
+
+  "advancement.weirdsustancesmod.get_cannabis_crafting_table.title": "Heisenbench",
+  "advancement.weirdsustancesmod.get_cannabis_crafting_table.description": "Todo imperio empieza en algún lugar",
+  "advancement.weirdsustancesmod.get_cannabis_soil.title": "Breaking Ground",
+  "advancement.weirdsustancesmod.get_cannabis_soil.description": "Crea un suelo apropiado para tus plantas",
+  "advancement.weirdsustancesmod.craft_grow_light.title": "Let There Be Light",
+  "advancement.weirdsustancesmod.craft_grow_light.description": "Fotosintensis para tus plantas",
+  "advancement.weirdsustancesmod.plant_cannabis_seed.title": "420 IQ Farming",
+  "advancement.weirdsustancesmod.plant_cannabis_seed.description": "El primer paso siempre es plantar",
+  "advancement.weirdsustancesmod.harvest_cannabis_nugget.title": "Harvest Season",
+  "advancement.weirdsustancesmod.harvest_cannabis_nugget.description": "Cosecha tu primer cogollo de cannabis",
+  "advancement.weirdsustancesmod.craft_blunt_wrap.title": "Roll Initiative",
+  "advancement.weirdsustancesmod.craft_blunt_wrap.description": "Crea tu primer cuero",
+  "advancement.weirdsustancesmod.craft_grinder.title": "The Fine Art of Preparation",
+  "advancement.weirdsustancesmod.craft_grinder.description": "Crea tu primer rascador",
+  "advancement.weirdsustancesmod.craft_blunt.title": "I Gotta Hide This",
+  "advancement.weirdsustancesmod.craft_blunt.description": "Aquí es donde la diversión empieza",
+  "advancement.weirdsustancesmod.smoke_blunt.title": "Snoop Would Be Proud",
+  "advancement.weirdsustancesmod.smoke_blunt.description": "Hay un policía allí"
+}

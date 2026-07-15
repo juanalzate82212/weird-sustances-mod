@@ -1,0 +1,27 @@
+{
+  "parent": "weirdsustancesmod:get_cannabis_crafting_table",
+  "display": {
+    "icon": {
+      "id": "weirdsustancesmod:cannabis_soil"
+    },
+    "title": {
+      "translate": "advancement.weirdsustancesmod.get_cannabis_soil.title"
+    },
+    "description": {
+      "translate": "advancement.weirdsustancesmod.get_cannabis_soil.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_soil": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "weirdsustancesmod:cannabis_soil"
+      }
+    }
+  },
+  "requirements": [["craft_soil"]]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "weirdsustancesmod:deal_poi",
+      "required": false
+    }
+  ]
+}

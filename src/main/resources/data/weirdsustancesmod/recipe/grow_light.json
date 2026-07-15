@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "RPR",
+    "GRG"
+  ],
+  "key": {
+    "G": { "item" : "minecraft:glass" },
+    "R": { "item" : "minecraft:redstone" },
+    "P": { "item" : "minecraft:purple_dye" }
+  },
+  "result": {
+    "id": "weirdsustancesmod:grow_light",
+    "count": 1
+  }
+}

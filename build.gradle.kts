@@ -47,7 +47,17 @@ dependencies {
 
     // Use `mod{dependency type}` even on 26.1+ - loom-back-compat converts them
     modImplementation("net.fabricmc:fabric-loader:${property("deps.fabric_loader")}")
-    fapi("fabric-lifecycle-events-v1", "fabric-resource-loader-v0", "fabric-content-registries-v0", "fabric-registry-sync-v0")
+    fapi(
+        "fabric-lifecycle-events-v1",
+        "fabric-resource-loader-v0",
+        "fabric-content-registries-v0",
+        "fabric-registry-sync-v0",
+        "fabric-object-builder-api-v1",
+        "fabric-transitive-access-wideners-v1",
+        "fabric-item-group-api-v1",
+        "fabric-rendering-v1",
+        "fabric-blockrenderlayer-v1"
+    )
 }
 
 loom {

@@ -1,0 +1,38 @@
+{
+  "parent": "weirdsustancesmod:craft_grinder",
+  "display": {
+    "icon": {
+      "id": "weirdsustancesmod:blunt_wrap_natural"
+    },
+    "title": {
+      "translate": "advancement.weirdsustancesmod.craft_blunt_wrap.title"
+    },
+    "description": {
+      "translate": "advancement.weirdsustancesmod.craft_blunt_wrap.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_blunt_wrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "weirdsustancesmod:blunt_wrap_natural",
+              "weirdsustancesmod:blunt_wrap_apple",
+              "weirdsustancesmod:blunt_wrap_watermelon",
+              "weirdsustancesmod:blunt_wrap_chocolate",
+              "weirdsustancesmod:blunt_wrap_honey",
+              "weirdsustancesmod:blunt_wrap_golden"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_blunt_wrap"]]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "weirdsustancesmod:craft_blunt_wrap",
+  "display": {
+    "icon": {
+      "id": "weirdsustancesmod:blunt"
+    },
+    "title": {
+      "translate": "advancement.weirdsustancesmod.craft_blunt.title"
+    },
+    "description": {
+      "translate": "advancement.weirdsustancesmod.craft_blunt.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_blunt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "weirdsustancesmod:blunt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_blunt"]]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "weirdsustancesmod:get_cannabis_soil",
+  "display": {
+    "icon": {
+      "id": "weirdsustancesmod:cannabis_seed"
+    },
+    "title": {
+      "translate": "advancement.weirdsustancesmod.plant_cannabis_seed.title"
+    },
+    "description": {
+      "translate": "advancement.weirdsustancesmod.plant_cannabis_seed.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "plant_seed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item":
+        {
+          "items": [
+            "weirdsustancesmod:cannabis_seed"
+          ]
+        },
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "weirdsustancesmod:cannabis_soil"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["plant_seed"]]
+}

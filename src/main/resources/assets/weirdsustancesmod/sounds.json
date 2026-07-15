@@ -1,0 +1,11 @@
+{
+  "blunt_use": {
+    "sounds": ["weirdsustancesmod:blunt_use"]
+  },
+  "blunt_finish": {
+    "sounds": ["weirdsustancesmod:blunt_finish"]
+  },
+  "dealer_work": {
+    "sounds": ["weirdsustancesmod:dealer_work"]
+  }
+}

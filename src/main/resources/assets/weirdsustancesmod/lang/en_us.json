@@ -1,0 +1,73 @@
+{
+  "item.weirdsustancesmod.cannabis_seed": "Cannabis Seed",
+
+  "item.weirdsustancesmod.cannabis_nugget_common": "Cannabis Nugget",
+  "item.weirdsustancesmod.cannabis_nugget_rare": "Cannabis Nugget",
+  "item.weirdsustancesmod.cannabis_nugget_special": "Cannabis Nugget",
+  "item.weirdsustancesmod.cannabis_nugget_legendary": "Cannabis Nugget",
+
+  "item.weirdsustancesmod.blunt_wrap_natural": "Natural Blunt Wrap",
+  "item.weirdsustancesmod.blunt_wrap_apple": "Apple Blunt Wrap",
+  "item.weirdsustancesmod.blunt_wrap_watermelon": "Watermelon Blunt Wrap",
+  "item.weirdsustancesmod.blunt_wrap_chocolate": "Chocolate Blunt Wrap",
+  "item.weirdsustancesmod.blunt_wrap_honey": "Honey Blunt Wrap",
+  "item.weirdsustancesmod.blunt_wrap_golden": "Golden Blunt Wrap",
+
+  "item.weirdsustancesmod.grinder": "Grinder",
+  "item.weirdsustancesmod.blunt": "Blunt",
+
+  "weirdsustancesmod.nugget_quality.common": "Common",
+  "weirdsustancesmod.nugget_quality.rare": "Rare",
+  "weirdsustancesmod.nugget_quality.special": "Special",
+  "weirdsustancesmod.nugget_quality.legendary": "Legendary",
+
+  "weirdsustancesmod.blunt_wrap_type.natural": "Natural",
+  "weirdsustancesmod.blunt_wrap_type.apple": "Apple",
+  "weirdsustancesmod.blunt_wrap_type.watermelon": "Watermelon",
+  "weirdsustancesmod.blunt_wrap_type.chocolate": "Chocolate",
+  "weirdsustancesmod.blunt_wrap_type.honey": "Honey",
+  "weirdsustancesmod.blunt_wrap_type.golden": "Golden",
+
+  "weirdsustancesmod.tooltip.processed": "Processed ",
+  "weirdsustancesmod.tooltip.unprocessed": "Unprocessed ",
+  "weirdsustancesmod.tooltip.quality": "Quality ",
+  "weirdsustancesmod.tooltip.effect": "Effect ",
+  "weirdsustancesmod.tooltip.nugget": "Nugget ",
+  "weirdsustancesmod.tooltip.duration": "Duration: %s:%s Potency: %s",
+
+  "block.weirdsustancesmod.cannabis_soil": "Cannabis Soil",
+  "block.weirdsustancesmod.grow_light": "Grow Light",
+  "item.weirdsustancesmod.cannabis_soil": "Cannabis Soil",
+  "item.weirdsustancesmod.grow_light": "Grow Light",
+
+  "weirdsustancesmod.grinder.already_processed": "This nugget is already processed.",
+
+  "block.weirdsustancesmod.cannabis_crafting_table": "Cannabic Table",
+  "item.weirdsustancesmod.cannabis_crafting_table": "Cannabic Table",
+
+  "effect.weirdsustancesmod.high": "High",
+
+  "entity.minecraft.villager.weirdsustancesmod.dealer": "Dealer",
+  "entity.minecraft.villager.dealer": "Dealer",
+
+  "itemGroup.weirdsustancesmod.weirdsustancesmod_group": "Weird Sustances Mod",
+
+  "advancement.weirdsustancesmod.get_cannabis_crafting_table.title": "Heisenbench",
+  "advancement.weirdsustancesmod.get_cannabis_crafting_table.description": "Every empire stars somewhere",
+  "advancement.weirdsustancesmod.get_cannabis_soil.title": "Breaking Ground",
+  "advancement.weirdsustancesmod.get_cannabis_soil.description": "Craft an appropriate soil for your plants",
+  "advancement.weirdsustancesmod.craft_grow_light.title": "Let There Be Light",
+  "advancement.weirdsustancesmod.craft_grow_light.description": "Photosynthesis for your plants",
+  "advancement.weirdsustancesmod.plant_cannabis_seed.title": "420 IQ Farming",
+  "advancement.weirdsustancesmod.plant_cannabis_seed.description": "The first step is always planting",
+  "advancement.weirdsustancesmod.harvest_cannabis_nugget.title": "Harvest Season",
+  "advancement.weirdsustancesmod.harvest_cannabis_nugget.description": "Harvest your first cannabis nugget",
+  "advancement.weirdsustancesmod.craft_blunt_wrap.title": "Roll Initiative",
+  "advancement.weirdsustancesmod.craft_blunt_wrap.description": "Craft your first blunt wrap",
+  "advancement.weirdsustancesmod.craft_grinder.title": "The Fine Art of Preparation",
+  "advancement.weirdsustancesmod.craft_grinder.description": "Craft your first grinder",
+  "advancement.weirdsustancesmod.craft_blunt.title": "I Gotta Hide This",
+  "advancement.weirdsustancesmod.craft_blunt.description": "This is where the fun begins",
+  "advancement.weirdsustancesmod.smoke_blunt.title": "Snoop Would Be Proud",
+  "advancement.weirdsustancesmod.smoke_blunt.description": "There's a cop right there"
+}

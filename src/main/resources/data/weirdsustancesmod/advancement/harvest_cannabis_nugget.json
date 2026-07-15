@@ -1,0 +1,36 @@
+{
+  "parent": "weirdsustancesmod:plant_cannabis_seed",
+  "display": {
+    "icon": {
+      "id": "weirdsustancesmod:cannabis_nugget_common"
+    },
+    "title": {
+      "translate": "advancement.weirdsustancesmod.harvest_cannabis_nugget.title"
+    },
+    "description": {
+      "translate": "advancement.weirdsustancesmod.harvest_cannabis_nugget.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "weirdsustancesmod:cannabis_nugget_common",
+              "weirdsustancesmod:cannabis_nugget_rare",
+              "weirdsustancesmod:cannabis_nugget_special",
+              "weirdsustancesmod:cannabis_nugget_legendary"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_nugget"]]
+}

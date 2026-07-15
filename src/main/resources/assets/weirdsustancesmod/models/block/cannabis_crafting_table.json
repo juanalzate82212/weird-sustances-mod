@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up":     "weirdsustancesmod:block/cannabis_crafting_table_top",
+    "down":   "weirdsustancesmod:block/cannabis_crafting_table_bottom",
+    "north":  "weirdsustancesmod:block/cannabis_crafting_table_front",
+    "south":  "weirdsustancesmod:block/cannabis_crafting_table_back",
+    "east":   "weirdsustancesmod:block/cannabis_crafting_table_side_a",
+    "west":   "weirdsustancesmod:block/cannabis_crafting_table_side_b",
+    "particle": "weirdsustancesmod:block/cannabis_crafting_table_top"
+  }
+}
