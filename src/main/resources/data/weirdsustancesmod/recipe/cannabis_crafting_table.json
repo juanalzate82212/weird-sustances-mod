@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OIO",
+    "OGO",
+    "OOO"
+  ],
+  "key": {
+    "O": { "item" : "minecraft:oak_planks" },
+    "G": { "item" : "minecraft:green_dye" },
+    "I": { "item" : "minecraft:iron_ingot" }
+  },
+  "result": {
+    "id": "weirdsustancesmod:cannabis_crafting_table",
+    "count": 1
+  }
+}

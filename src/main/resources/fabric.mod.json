@@ -13,6 +13,9 @@
   "entrypoints": {
     "main": [
       "com.juanalzate.WeirdSustancesMod"
+    ],
+    "client": [
+      "com.juanalzate.client.WeirdSustancesModClient"
     ]
   },
   "mixins": [

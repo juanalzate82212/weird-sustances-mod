@@ -1,0 +1,33 @@
+{
+  "parent": "weirdsustancesmod:craft_blunt",
+  "display": {
+    "icon": {
+      "id": "weirdsustancesmod:blunt"
+    },
+    "title": {
+      "translate": "advancement.weirdsustancesmod.smoke_blunt.title"
+    },
+    "description": {
+      "translate": "advancement.weirdsustancesmod.smoke_blunt.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "smoke": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "weirdsustancesmod:blunt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["smoke"]]
+}

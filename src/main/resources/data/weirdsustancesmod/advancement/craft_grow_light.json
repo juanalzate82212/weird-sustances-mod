@@ -1,0 +1,27 @@
+{
+  "parent": "weirdsustancesmod:get_cannabis_crafting_table",
+  "display": {
+    "icon": {
+      "id": "weirdsustancesmod:grow_light"
+    },
+    "title": {
+      "translate": "advancement.weirdsustancesmod.craft_grow_light.title"
+    },
+    "description": {
+      "translate": "advancement.weirdsustancesmod.craft_grow_light.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_grow_light": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "weirdsustancesmod:grow_light"
+      }
+    }
+  },
+  "requirements": [["craft_grow_light"]]
+}

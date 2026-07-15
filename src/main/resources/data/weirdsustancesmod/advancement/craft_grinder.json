@@ -1,0 +1,27 @@
+{
+  "parent": "weirdsustancesmod:get_cannabis_crafting_table",
+  "display": {
+    "icon": {
+      "id": "weirdsustancesmod:grinder"
+    },
+    "title": {
+      "translate": "advancement.weirdsustancesmod.craft_grinder.title"
+    },
+    "description": {
+      "translate": "advancement.weirdsustancesmod.craft_grinder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_grinder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "weirdsustancesmod:grinder"
+      }
+    }
+  },
+  "requirements": [["craft_grinder"]]
+}

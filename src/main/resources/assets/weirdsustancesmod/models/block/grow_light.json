@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:block/thin_block",
+  "textures": {
+    "top": "weirdsustancesmod:block/grow_light_top",
+    "bottom": "weirdsustancesmod:block/grow_light_bottom",
+    "side": "weirdsustancesmod:block/grow_light_side",
+    "particle": "weirdsustancesmod:block/grow_light_bottom"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to":   [16, 3, 16],
+      "shade": false,
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top"},
+        "north": { "texture": "#side", "cullface": "north" },
+        "south": { "texture": "#side", "cullface": "south" },
+        "east":  { "texture": "#side", "cullface": "east" },
+        "west":  { "texture": "#side", "cullface": "west" }
+      }
+    }
+  ]
+}

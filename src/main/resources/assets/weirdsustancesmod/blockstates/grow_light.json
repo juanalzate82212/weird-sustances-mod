@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up":   { "model": "weirdsustancesmod:block/grow_light" },
+    "facing=down": { "model": "weirdsustancesmod:block/grow_light", "x": 180 },
+    "facing=north": { "model": "weirdsustancesmod:block/grow_light" },
+    "facing=south": { "model": "weirdsustancesmod:block/grow_light" },
+    "facing=east": { "model": "weirdsustancesmod:block/grow_light" },
+    "facing=west": { "model": "weirdsustancesmod:block/grow_light" }
+  }
+}

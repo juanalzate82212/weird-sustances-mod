@@ -1,0 +1,7 @@
+{
+  "parent": "weirdsustancesmod:block/template_crop_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "weirdsustancesmod:block/cannabis_crop_stage0"
+  }
+}
