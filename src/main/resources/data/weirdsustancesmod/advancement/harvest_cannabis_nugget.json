@@ -1,5 +1,5 @@
 {
-  "parent": "weirdsustancesmod:plant_cannabis_seed",
+  "parent": "weirdsustancesmod:get_cannabis_soil",
   "display": {
     "icon": {
       "id": "weirdsustancesmod:cannabis_nugget_common"
