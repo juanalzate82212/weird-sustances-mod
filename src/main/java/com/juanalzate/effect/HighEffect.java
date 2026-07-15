@@ -12,17 +12,4 @@ public class HighEffect extends MobEffect {
                 0x22BB44
         );
     }
-
-    @Override
-    public boolean applyEffectTick(LivingEntity entity, int amplifier) {
-        if (entity instanceof Player player) {
-            player.getFoodData().addExhaustion(8.0f);
-        }
-        return true;
-    }
-
-    @Override
-    public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
-        return duration % 60 == 0;
-    }
 }

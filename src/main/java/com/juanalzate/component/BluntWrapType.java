@@ -33,7 +33,7 @@ public enum BluntWrapType implements StringRepresentable {
         return switch (this) {
             case NATURAL -> arr(MobEffects.MOVEMENT_SLOWDOWN);
             case APPLE -> arr(MobEffects.DIG_SPEED);
-            case WATERMELON -> arr(MobEffects.HEAL);
+            case WATERMELON -> arr(MobEffects.REGENERATION);
             case CHOCOLATE -> arr(MobEffects.DAMAGE_BOOST);
             case HONEY -> arr(MobEffects.MOVEMENT_SPEED);
             case GOLDEN -> arr(MobEffects.NIGHT_VISION, MobEffects.DIG_SPEED, MobEffects.MOVEMENT_SPEED);

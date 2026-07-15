@@ -130,31 +130,25 @@ public class BluntItem extends Item {
                 false
         ));
 
+        player.addEffect(new MobEffectInstance(
+                MobEffects.HUNGER,
+                600,
+                0,
+                false,
+                false,
+                false
+        ));
+
         BluntWrapType wrap = data.bluntWrapType();
 
-        if (wrap == BluntWrapType.WATERMELON) {
-            int times = switch (data.nuggetQuality()) {
-                case COMMON -> 1;
-                case RARE -> 2;
-                case SPECIAL -> 3;
-                case LEGENDARY -> 4;
-            };
-            for (int i = 0; i < times; i++) {
-                player.addEffect(new MobEffectInstance(
-                        MobEffects.HEAL,
-                        1,
-                        amplifier
-                ));
-            }
-        } else {
-            for (Holder<MobEffect> effect : wrap.getEffects()) {
-                player.addEffect(new MobEffectInstance(
-                        effect,
-                        duration,
-                        amplifier
-                ));
-            }
+        for (Holder<MobEffect> effect : wrap.getEffects()) {
+            player.addEffect(new MobEffectInstance(
+                    effect,
+                    duration,
+                    amplifier
+            ));
         }
+
 
     }
 }
